@@ -1,8 +1,8 @@
 import AnimatedCursor from "react-animated-cursor";
-import HeroPage from "./components/HeroPage";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
+import Hero from "./components/Hero";
 
 interface Clickable {
   target: string;
@@ -58,7 +58,7 @@ function App() {
         ]}
       />
 
-      <HeroPage />
+      <Hero />
       <Experience />
       <Projects />
       <Footer />

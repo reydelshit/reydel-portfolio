@@ -1,7 +1,7 @@
 import { IoIosArrowRoundDown } from "react-icons/io";
 import { Details as details } from "../constants/details";
 
-export default function HeroPage() {
+export default function Hero() {
   return (
     <div className=" w-[50%] flex justify-center items-center flex-col h-dvh relative">
       <div className="p-0 leading-[7rem]">
