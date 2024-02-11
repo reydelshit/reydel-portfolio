@@ -1,5 +1,7 @@
 import AnimatedCursor from "react-animated-cursor";
 import HeroPage from "./components/HeroPage";
+import Experience from "./components/Experience";
+import Projects from "./components/Projects";
 
 interface Clickable {
   target: string;
@@ -15,7 +17,7 @@ interface Clickable {
 
 function App() {
   return (
-    <div className="w-dvw h-dvh flex flex-col justify-center items-center">
+    <div className="flex flex-col justify-center items-center">
       <AnimatedCursor
         innerSize={8}
         outerSize={35}
@@ -56,6 +58,8 @@ function App() {
       />
 
       <HeroPage />
+      <Experience />
+      <Projects />
     </div>
   );
 }
