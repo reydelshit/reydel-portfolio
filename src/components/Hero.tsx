@@ -1,6 +1,10 @@
 import { IoIosArrowRoundDown } from "react-icons/io";
-import { Details as details } from "../constants/details";
+import { ProfileDetails as details } from "../constants/details";
 
+interface Social {
+  icon: JSX.Element;
+  link: string;
+}
 export default function Hero() {
   return (
     <div className=" w-[50%] flex justify-center items-center flex-col h-dvh relative">
@@ -21,7 +25,7 @@ export default function Hero() {
           </p>
 
           <div className="my-[1rem] flex gap-4">
-            {details.socials.map((social, index) => {
+            {details.socials.map((social: Social, index: number) => {
               return (
                 <a
                   target="_blank"

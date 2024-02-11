@@ -3,7 +3,7 @@ import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 
-export const Details = {
+export const ProfileDetails = {
   firstName: "Reydel",
   lastName: "Ocon",
   role: "Software Developer & Seo Specialist ⚡",
