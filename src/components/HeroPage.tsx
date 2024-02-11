@@ -1,6 +1,5 @@
 import { IoIosArrowRoundDown } from "react-icons/io";
-
-import { Details as details } from "../constants/Details";
+import { Details as details } from "../constants/details";
 
 export default function HeroPage() {
   return (

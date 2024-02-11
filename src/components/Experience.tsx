@@ -3,7 +3,7 @@ import { Experience as experience } from "../constants/experience";
 
 export default function Experience() {
   return (
-    <div className="py-[5rem] h-fit w-[50%] mt-[2rem] flex flex-col text-start">
+    <div className="pt-[4rem] h-fit w-[50%] mt-[2rem] flex flex-col text-start">
       <div className="py-4 w-full text-start mb-[2rem]">
         <h1 className="font-bold text-[2rem] bg-primary-color p-2 w-fit text-white rounded-sm">
           Experience.
