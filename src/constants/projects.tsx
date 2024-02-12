@@ -4,7 +4,7 @@ export const Projects = [
     description:
       "A system for monitoring prenatal care and scheduling tuberculosis screenings. ",
     image:
-      "https://drive.google.com/drive/u/1/folders/1a2AgNQU7zYavrunSpT9Ua2XQ0mcqHP6Q",
+      "https://github.com/reydelshit/reydel-portfolio/blob/main/src/assets/projects%20ui/prenatal.png?raw=true",
     tech: ["React", "Typescript", "Tailwind", "Php Backend", "MySQL Database"],
     github: "https://github.com/reydelshit/prenatal-tb",
     link: "https://github.com/reydelshit/prenatal-tb",
@@ -14,7 +14,7 @@ export const Projects = [
     title: "NickIanJazz Cake Ordering System ",
     description: "Facilitates seamless online cake orders for customers. ",
     image:
-      "https://s3-alpha.figma.com/hub/file/2738261639/7df442e0-8ba3-4ea1-b760-4d343efee444-cover.png",
+      "https://github.com/reydelshit/reydel-portfolio/blob/main/src/assets/projects%20ui/ordering.png?raw=true",
     tech: ["React", "Typescript", "Tailwind", "Php Backend", "MySQL Database"],
     github: "https://github.com/reydelshit/ordering-system",
     link: "https://github.com/reydelshit/ordering-system",
@@ -25,7 +25,7 @@ export const Projects = [
     description:
       "The robot can read Soil MacroNutrients (NPK), Soil Ph, and Moisture real time and recommend crops.",
     image:
-      "https://s3-alpha.figma.com/hub/file/2738261639/7df442e0-8ba3-4ea1-b760-4d343efee444-cover.png",
+      "https://github.com/reydelshit/reydel-portfolio/blob/main/src/assets/projects%20ui/soilmate.jpg?raw=true",
     tech: ["React js", "Typescript", "Tailwind", "Arduino Uno"],
     github: "https://github.com/reydelshit/soil-mate",
     link: "https://github.com/reydelshit/soil-mate",
@@ -35,7 +35,7 @@ export const Projects = [
     title: "Jed Inventory System ",
     description: "Manages and tracks stock and resources efficiently. ",
     image:
-      "https://s3-alpha.figma.com/hub/file/2738261639/7df442e0-8ba3-4ea1-b760-4d343efee444-cover.png",
+      "https://github.com/reydelshit/reydel-portfolio/blob/main/src/assets/projects%20ui/jed.png?raw=true",
     tech: ["React js", "Typescript", "Tailwind", "Arduino Uno"],
     github: "https://github.com/reydelshit/jed-inventory",
     link: "https://github.com/reydelshit/jed-inventory",
@@ -45,7 +45,7 @@ export const Projects = [
     title: "Micro Mussings",
     description: "A twitter type social media platform for microblogging.",
     image:
-      "https://s3-alpha.figma.com/hub/file/2738261639/7df442e0-8ba3-4ea1-b760-4d343efee444-cover.png",
+      "https://github.com/reydelshit/reydel-portfolio/blob/main/src/assets/projects%20ui/micro.png?raw=true",
     tech: [
       "next js",
       "server actions",
@@ -62,7 +62,7 @@ export const Projects = [
     description:
       "A system designed for overseeing sow (female pig) health and behavior in agricultural settings ",
     image:
-      "https://s3-alpha.figma.com/hub/file/2738261639/7df442e0-8ba3-4ea1-b760-4d343efee444-cover.png",
+      "https://github.com/reydelshit/reydel-portfolio/blob/main/src/assets/projects%20ui/sow.png?raw=true",
     tech: ["Java", "Java Netbeans", "MySql"],
     github: "https://github.com/reydelshit/sow-system",
     link: "https://github.com/reydelshit/sow-system",
