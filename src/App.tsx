@@ -3,6 +3,7 @@ import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
+import { useEffect } from "react";
 
 interface Clickable {
   target: string;
