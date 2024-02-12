@@ -7,19 +7,19 @@ interface Social {
 }
 export default function Hero() {
   return (
-    <div className=" w-[50%] flex justify-center items-center flex-col h-dvh relative">
-      <div className="p-0 leading-[7rem]">
+    <div className="w-full md:w-[100%] flex justify-center items-center flex-col h-dvh relative px-2 md:px-0">
+      <div className="p-0 leading-[7rem]  w-full md:w-[80%] lg:w-[50%] ">
         <h1
-          className="uppercase font-main-font font-bold text-[8rem] 
-     whitespace-nowrap p-0 "
+          className="uppercase font-main-font font-bold text-5xl md:text-[5rem] lg:text-[6rem] inline-block md:whitespace-nowrap
+          p-0"
         >
           {details.firstName}
-          <span className="bg-primary-color text-white p-2 ml-2 rounded-sm">
+          <span className="bg-primary-color text-white p-2 ml-2 rounded-sm inline-block">
             {details.lastName}
           </span>
         </h1>
 
-        <span className="text-start w-full flex justify-start p-2 flex-col items-start">
+        <span className="text-start w-full flex justify-start p-0 md:p-2 flex-col">
           <p className="font-bold text-xl uppercase text-primary-color">
             {details.role}
           </p>
