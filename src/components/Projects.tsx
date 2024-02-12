@@ -23,7 +23,7 @@ export default function Projects() {
               alt=""
             />
 
-            <div className="leading-relaxed">
+            <div className="leading-relaxed w-full">
               <div className="py-1 md:py-2 flex justify-between flex-col md:flex-row">
                 <h2 className="font-semibold text-sm lg:text-lg">
                   {project.title}
