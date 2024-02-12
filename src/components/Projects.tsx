@@ -2,7 +2,15 @@ import { LuGithub } from "react-icons/lu";
 import { TbExternalLink } from "react-icons/tb";
 
 import { Projects as projects } from "../constants/projects";
+import { useState } from "react";
+
 export default function Projects() {
+  const [defaultLength, setDefaultLength] = useState(4);
+
+  const handleShowMore = () => {
+    setDefaultLength(projects.length);
+  };
+
   return (
     <div className="py-[5rem] h-fit w-full md:w-[80%] lg:w-[50%] flex flex-col text-start px-2 md:px-0">
       <div className="py-4 w-full text-start mb-[2rem]">
@@ -64,11 +72,14 @@ export default function Projects() {
               </div>
             </div>
           ))
-          .slice(0, 4)}
+          .slice(0, defaultLength)}
       </div>
 
       <div className="flex w-full justify-center">
-        <button className="p-2 mt-[2rem] border-b-4 border-primary-color">
+        <button
+          onClick={handleShowMore}
+          className="p-2 mt-[2rem] border-b-4 border-primary-color"
+        >
           View More
         </button>
       </div>
