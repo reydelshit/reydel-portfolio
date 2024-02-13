@@ -4,6 +4,7 @@ import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import EmailMe from "./components/EmailMe";
+import Technologies from "./components/Technologies";
 
 interface Clickable {
   target: string;
@@ -61,6 +62,7 @@ function App() {
 
       <Hero />
       <Experience />
+      <Technologies />
       <Projects />
       <EmailMe />
       <Footer />
