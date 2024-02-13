@@ -1,14 +1,11 @@
 import { IoIosArrowRoundForward } from "react-icons/io";
 import { Experience as experience } from "../constants/experience";
+import PageHeader from "./reusable/PageHeader";
 
 export default function Experience() {
   return (
     <div className="md:w-[80%] lg:w-[50%] pt-[4rem] h-fit mt-[2rem] flex flex-col text-start px-2 md:px-0">
-      <div className="py-4 w-full text-start mb-[2rem]">
-        <h1 className="font-bold text-[2rem] bg-primary-color p-2 w-fit text-white rounded-sm">
-          Experience.
-        </h1>
-      </div>
+      <PageHeader title="Experience" />
 
       <div className="w-full pl-[2rem] md:pl-[5rem] lg:pl-[5rem]">
         <ol className="relative border-s border-primary-color w-[100%]">

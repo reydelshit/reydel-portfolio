@@ -3,6 +3,7 @@ import { TbExternalLink } from "react-icons/tb";
 
 import { Projects as projects } from "../constants/projects";
 import { useState } from "react";
+import PageHeader from "./reusable/PageHeader";
 
 export default function Projects() {
   const [defaultLength, setDefaultLength] = useState(4);
@@ -13,11 +14,7 @@ export default function Projects() {
 
   return (
     <div className="py-[5rem] h-fit w-full md:w-[80%] lg:w-[50%] flex flex-col text-start px-2 md:px-0">
-      <div className="py-4 w-full text-start mb-[2rem]">
-        <h1 className="font-bold text-[2rem] bg-primary-color p-2 w-fit text-white rounded-sm">
-          Projects.
-        </h1>
-      </div>
+      <PageHeader title="Projects" />
 
       <div className="w-full md:pl-[3rem] lg:pl-[4rem] flex flex-col gap-4">
         {projects
@@ -73,6 +70,7 @@ export default function Projects() {
             </div>
           ))
           .slice(0, defaultLength)}
+        P
       </div>
 
       <div className="flex w-full justify-center">
