@@ -70,6 +70,10 @@ export default function Projects() {
             </div>
           ))
           .slice(0, defaultLength)}
+<<<<<<< HEAD
+=======
+        
+>>>>>>> a3dafee9c48ef49dc65df7a2363a084085b83be3
       </div>
 
       <div className="flex w-full justify-center">
