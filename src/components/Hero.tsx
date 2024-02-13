@@ -9,14 +9,14 @@ export default function Hero() {
   return (
     <div className="w-full md:w-[100%]  flex justify-center items-center flex-col h-dvh relative px-2 md:px-0">
       <div className="p-0 ">
-        <h1 className="flex gap-2 items-center px-4 uppercase font-main-font font-bold text-[3rem] leading-none md:text-[5rem] lg:text-[8rem] md:whitespace-nowrap">
+        <h1 className="flex gap-2 items-center px-2 lg:px-1 uppercase font-main-font font-bold text-[3rem] leading-none md:text-[5rem] lg:text-[8rem] md:whitespace-nowrap">
           {details.firstName}
           <span className="bg-primary-color text-white p-2 rounded-sm inline-block">
             {details.lastName}
           </span>
         </h1>
 
-        <span className="text-start w-full flex justify-start px-4 flex-col lg:mt-[-1.2rem]">
+        <span className="text-start w-full flex justify-start px-2.5 flex-col lg:mt-[-1.2rem]">
           <p className="font-bold text-xl uppercase text-primary-color">
             {details.role}
           </p>
