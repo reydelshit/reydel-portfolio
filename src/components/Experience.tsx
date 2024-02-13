@@ -41,7 +41,8 @@ export default function Experience() {
 
       <div className="w-full text-end p-2 flex justify-end">
         <a
-          href="#"
+          target="_blank"
+          href="https://drive.google.com/file/d/1aUyd-iQYoIJ4vU2xS_F70pLIyTK6HA8U/view?usp=sharing"
           className="hover:border-b-4 hover:border-primary-color flex items-center gap-2 justify-end w-fit"
         >
           View Resume
