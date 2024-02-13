@@ -70,7 +70,7 @@ export default function Projects() {
             </div>
           ))
           .slice(0, defaultLength)}
-        P
+        
       </div>
 
       <div className="flex w-full justify-center">
