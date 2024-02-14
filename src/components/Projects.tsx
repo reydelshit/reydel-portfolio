@@ -4,7 +4,8 @@ import { TbExternalLink } from "react-icons/tb";
 import { Projects as projects } from "../constants/projects";
 import { useState } from "react";
 import PageHeader from "./reusable/PageHeader";
-
+import Visit from "./reusable/Visit";
+import { ProfileDetails as details } from "../constants/details";
 export default function Projects() {
   const [defaultLength, setDefaultLength] = useState(4);
 
@@ -80,6 +81,14 @@ export default function Projects() {
           View More
         </button>
       </div>
+
+      <Visit
+        link={
+          details.socials.filter((social) => social.link.includes("github"))[0]
+            .link
+        }
+        title="More Projects"
+      />
     </div>
   );
 }

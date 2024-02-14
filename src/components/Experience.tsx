@@ -1,6 +1,6 @@
-import { IoIosArrowRoundForward } from "react-icons/io";
 import { Experience as experience } from "../constants/experience";
 import PageHeader from "./reusable/PageHeader";
+import Visit from "./reusable/Visit";
 
 export default function Experience() {
   return (
@@ -36,16 +36,10 @@ export default function Experience() {
         </ol>
       </div>
 
-      <div className="w-full text-end p-2 flex justify-end">
-        <a
-          target="_blank"
-          href="https://drive.google.com/file/d/1aUyd-iQYoIJ4vU2xS_F70pLIyTK6HA8U/view?usp=sharing"
-          className="hover:border-b-4 hover:border-primary-color flex items-center gap-2 justify-end w-fit"
-        >
-          View Resume
-          <IoIosArrowRoundForward />
-        </a>
-      </div>
+      <Visit
+        link="https://drive.google.com/file/d/1aUyd-iQYoIJ4vU2xS_F70pLIyTK6HA8U/view?usp=sharing"
+        title="View Resume"
+      />
     </div>
   );
 }
